@@ -14,10 +14,10 @@ services:
 
   portal:
     image: nginx
-    container_name: Maestria
+    container_name: Portal
     restart: always
     environment:
-      - VIRTUAL_HOST=maestria.ddnsking.com
+      - VIRTUAL_HOST=portalmrsi.ddns.net
     volumes:
       - /storage/nginx/portal:/usr/share/nginx/html:ro
   # ERP
